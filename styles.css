@@ -2,11 +2,126 @@
   box-sizing: border-box;
 }
 body {
-  margin: 0;
+  display: flex;
+  justify-content: center;
+  /* margin: 100px; */
   background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: auto;
+}
+
+.main {
+  /* background-color: rgb(55, 65, 65); */
+  height: 794px;
+  width: 850px;
+}
+
+.upper {
+  background-image: url(/NASA\ Photo.jpg);
+  background-size: 850px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  /* font-size: 35; */
+  height: 450px;
+  width: 850px;
+}
+
+.middle {
+  height: 20;
+  width: 850;
+}
+
+.lower {
+  display: table;
+}
+
+.lower_left {
+  display: table-cell;
+  background-color: rgb(218, 215, 184);
+  width: 270;
+  height: 324;
+  padding-top: 30;
+  padding-left: 30px;
+}
+
+.lower_middle {
+  display: table-cell;
+  background-color: rgb(218, 215, 184);
+  width: 270;
+  height: 324;
+  padding-top: 30;
+  padding-left: 30px;
+}
+
+.lower_right {
+  display: table-cell;
+  background-color: rgb(218, 215, 184);
+  width: 270;
+  height: 324;
+  padding-top: 30;
+  padding-left: 30px;
+}
+
+.name_box {
+  background-color: white;
+  height: 25;
+  width: 210;
+
+}
+
+.message_box {
+  background-color: white;
+  height: 50;
+  width: 210;
+
+}
+
+.buffer {
+  background-color: rgb(218, 215, 184);
+  display: table-cell;
+  width: 20px;
+  height: 324px;
 }
 
 h1 {
   font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 50px;
+}
 
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  padding: 0;
+}
+
+.send_button {
+  border: none;
+  color: rgb(193, 193, 193);
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
