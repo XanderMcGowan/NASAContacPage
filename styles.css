@@ -17,7 +17,7 @@ body {
 }
 
 .upper {
-  background-image: url(/NASA\ Photo.jpg);
+  background-image: url(./NASA_Photo.jpg);
   background-size: 850px;
   display: flex;
   flex-direction: column;
